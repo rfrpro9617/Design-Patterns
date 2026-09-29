@@ -30,6 +30,7 @@ class DescontoFuncionario implements DescontoStrategy {
 }
 
 // Context (utiliz strategy)
+// Conhece a abstração e não a implementação
 class CalculadoraDesconto {
 
   private DescontoStrategy strategy;
